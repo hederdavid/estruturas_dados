@@ -60,7 +60,6 @@ class FilaEstaticaCircular(val tamanho: Int = 10) : Enfileiravel {
             } else {
                 "${dados[aux]}, "
             }
-
             aux++
             if (aux == dados.size)
                 aux = 0
