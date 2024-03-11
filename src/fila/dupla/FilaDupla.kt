@@ -1,4 +1,4 @@
-package fila.circular
+package fila.dupla
 
 class FilaDupla(tamanho: Int = 10) : DuplamenteEnfileirado {
     private var ponteiroInicio = 0
@@ -13,9 +13,6 @@ class FilaDupla(tamanho: Int = 10) : DuplamenteEnfileirado {
 
     override fun enfileirarFim(dado: Any?) {
         if (!estaCheia()) {
-            if (ponteiroFim == dados.size) {
-                ponteiroFim = -1
-            }
             ponteiroFim++
             dados[ponteiroFim] = dado
             println("O dado: '${dado}' foi enfileirado na posição $ponteiroFim com sucesso.")

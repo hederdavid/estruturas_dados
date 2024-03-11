@@ -1,4 +1,4 @@
-package fila.circular
+package fila.dupla
 
 interface DuplamenteEnfileirado {
     fun enfileirarInicio(dado: Any?)
