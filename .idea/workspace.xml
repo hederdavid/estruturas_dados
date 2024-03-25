@@ -5,18 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1023a823-81a0-46fa-bba5-2403fee27ebc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estruturas_dados.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pilha/estatica/Empilhavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pilha/estatica/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pilha/estatica/PilhaEstatica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/fila/circular/Enfileiravel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/fila/circular/FilaCircular.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/fila/circular/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/fila/dupla/DuplamenteEnfileiravel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/fila/dupla/FilaCircularDupla.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/dupla/Empilhavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/dupla/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/dupla/PìlhaDupla.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/normal/Empilhavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/normal/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/normal/PilhaNormal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fila/comPilhas/Empilhavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fila/comPilhas/Enfileiravel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fila/comPilhas/FilaComPilhas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fila/comPilhas/Pilha.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pilha/comFilas/Empilhavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pilha/comFilas/Enfileiravel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pilha/comFilas/FilaCircular.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pilha/comFilas/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pilha/comFilas/PilhaComFilas.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emAula/FilaEstatica.kt" beforeDir="false" afterPath="$PROJECT_DIR$/emAula/FilaEstatica.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emAula/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/emAula/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fila/circular/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fila/circular/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pilha/estatica/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pilha/estatica/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -33,10 +52,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2dGjwUxCG36ck5iUKn7aJldCWUS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,15 +69,40 @@
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Heder David/IdeaProjects/estruturas_dados/src/Main.kt"
+    "last_opened_file_path": "C:/Users/Heder David/IdeaProjects/estruturas_dados",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Heder David/IdeaProjects/estruturas_dados/src/Main.kt",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "two.files.diff.last.used.folder": "C:/Users/Heder David/IdeaProjects/estruturas_dados/emAula",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\pilha\comFilas" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\fila\estatica" />
       <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\pilha\estatica" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="fila.comPilhas" />
+      <recent name="pilha.comFilas" />
+      <recent name="fila.dupla" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,8 +112,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709641551499</updated>
+      <workItem from="1711299719685" duration="8006000" />
+      <workItem from="1711309023802" duration="4295000" />
+      <workItem from="1711316500044" duration="231000" />
+      <workItem from="1711317721646" duration="51000" />
+      <workItem from="1711369082904" duration="6842000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -83,6 +135,83 @@
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/pilha/inversa/PilhaEstaticaInversa.kt</url>
+          <line>51</line>
+          <properties class="pilha.inversa.PilhaEstaticaInversa" method="imprimir">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/pilha/inversa/PilhaEstaticaInversa.kt</url>
+          <line>12</line>
+          <properties class="pilha.inversa.PilhaEstaticaInversa" method="empilhar">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/pilha/dupla/PilhaDupla.kt</url>
+          <line>112</line>
+          <properties class="pilha.dupla.PilhaDupla" method="imprimirArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/fila/estatica/FilaEstatica.kt</url>
+          <line>16</line>
+          <properties class="fila.estatica.FilaEstatica" method="desenfileirar">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/fila/dupla/FilaCircularDupla.kt</url>
+          <line>116</line>
+          <properties class="fila.dupla.FilaCircularDupla" method="imprimir">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/fila/dupla/FilaCircularDupla.kt</url>
+          <line>26</line>
+          <properties class="fila.dupla.FilaCircularDupla" method="enfileirarFim">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/fila/circular/FilaCircular.kt</url>
+          <line>7</line>
+          <properties class="fila.circular.FilaCircular" method="enfileirar">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/fila/circular/FilaCircular.kt</url>
+          <line>61</line>
+          <properties class="fila.circular.FilaCircular" method="imprimir">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/estudosProva/pilha/dupla/PìlhaDupla.kt</url>
+          <line>45</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -90,5 +219,9 @@
         <PinnedItemInfo parentTag="pilha.estatica.PilhaEstatica" memberName="dados" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

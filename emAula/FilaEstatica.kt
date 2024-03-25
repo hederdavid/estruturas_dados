@@ -13,7 +13,7 @@ class FilaEstatica(tamanho: Int = 10) : Enfileiravel {
             dado = dados[ponteiroInicio]
             ponteiroInicio++
         } else {
-            println("A pilha está vazia")
+            println("A fila está vazia")
         }
         return dado
     }
@@ -23,7 +23,7 @@ class FilaEstatica(tamanho: Int = 10) : Enfileiravel {
         if (!estaVazia()) {
             dado = dados[ponteiroInicio]
         } else {
-            println("A pilha está vazia")
+            println("A fila está vazia")
         }
         return dado
 

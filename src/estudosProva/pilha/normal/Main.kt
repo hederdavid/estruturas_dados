@@ -1,15 +1,16 @@
-package pilha.estatica
+package estudosProva.pilha.normal
+
 
 fun main(args: Array<String>) {
-    var pilha: Empilhavel = PilhaEstatica()
+    var pilha : Empilhavel = PilhaNormal()
     pilha.empilhar("Instituto")
     pilha.empilhar("Federal")
-    println("Topo: ${pilha.topo()}")
+    println("Topo: ${pilha.espiar()}")
     pilha.empilhar("de")
     pilha.empilhar("Educação")
     pilha.empilhar("Ciência")
     pilha.empilhar("e")
-    println("Topo: ${pilha.topo()}")
+    println("Topo: ${pilha.espiar()}")
     val conteudo = pilha.desempilhar()
     println(conteudo)
     pilha.empilhar(conteudo)
