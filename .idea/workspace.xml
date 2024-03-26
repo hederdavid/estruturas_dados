@@ -5,34 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1023a823-81a0-46fa-bba5-2403fee27ebc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/fila/circular/Enfileiravel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/fila/circular/FilaCircular.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/fila/circular/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/fila/dupla/DuplamenteEnfileiravel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/fila/dupla/FilaCircularDupla.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/dupla/Empilhavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/dupla/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/dupla/PìlhaDupla.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/normal/Empilhavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/normal/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/normal/PilhaNormal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fila/comPilhas/Empilhavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fila/comPilhas/Enfileiravel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fila/comPilhas/FilaComPilhas.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fila/comPilhas/Pilha.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pilha/comFilas/Empilhavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pilha/comFilas/Enfileiravel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pilha/comFilas/FilaCircular.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pilha/comFilas/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pilha/comFilas/PilhaComFilas.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/fila/comPilhas/Enfileiravel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/fila/comPilhas/FilaComPilhas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/fila/comPilhas/PilhaEstatica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/comFila/Empilhavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/comFila/Enfileiravel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/comFila/FilaCircular.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/comFila/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/comFila/PilhaComFilas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estudosProva/pilha/dupla/pilhaDupla.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fila/comPilhas/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista/ListaCircular.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista/Listavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ordenacao/bubblesort/BubbleSort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ordenacao/bubblesort/Ordenavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/teste/ClasseConcreta.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/teste/InterfaceA.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/teste/InterfaceB.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emAula/FilaEstatica.kt" beforeDir="false" afterPath="$PROJECT_DIR$/emAula/FilaEstatica.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emAula/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/emAula/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fila/circular/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fila/circular/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pilha/estatica/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pilha/estatica/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estudosProva/fila/dupla/DuplamenteEnfileiravel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/estudosProva/fila/dupla/DuplamenteEnfileiravel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estudosProva/fila/dupla/FilaCircularDupla.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/estudosProva/fila/dupla/FilaCircularDupla.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estudosProva/pilha/dupla/Empilhavel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/estudosProva/pilha/dupla/EmpilhavelDupla.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estudosProva/pilha/dupla/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estudosProva/pilha/dupla/PìlhaDupla.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estudosProva/pilha/normal/Empilhavel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/estudosProva/fila/comPilhas/Empilhavel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estudosProva/pilha/normal/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estudosProva/pilha/normal/PilhaNormal.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fila/comPilhas/FilaComPilhas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fila/comPilhas/FilaComPilhas.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fila/dupla/FilaCircularDupla.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fila/dupla/FilaCircularDupla.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pilha/comFilas/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pilha/comFilas/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTTP Request" />
         <option value="Class" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
@@ -52,6 +54,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -66,6 +71,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.All in teste.executor": "Run",
+    "Kotlin.ClasseConcretaKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -96,6 +103,26 @@
       <recent name="pilha.comFilas" />
       <recent name="fila.dupla" />
     </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="estudosProva.fila.comPilhas" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="All in teste" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/teste.http">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.All in teste" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -116,7 +143,10 @@
       <workItem from="1711309023802" duration="4295000" />
       <workItem from="1711316500044" duration="231000" />
       <workItem from="1711317721646" duration="51000" />
-      <workItem from="1711369082904" duration="6842000" />
+      <workItem from="1711369082904" duration="7669000" />
+      <workItem from="1711383949042" duration="4154000" />
+      <workItem from="1711453499676" duration="10434000" />
+      <workItem from="1711467538871" duration="5635000" />
     </task>
     <servers />
   </component>

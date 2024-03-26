@@ -8,12 +8,26 @@ class FilaCircularDupla(tamanho: Int = 10) : DuplamenteEnfileiravel {
     override fun enfileirarInicio(dado: Any?) {
         if (!estaCheia()) {
             ponteiroInicio--
-            if (ponteiroInicio == dados.size - 1) {
+            if (ponteiroInicio == -1) {
+                ponteiroInicio = dados.size - 1
                 if (quantidade == 0) {
                     ponteiroFim = dados.size - 1
                 }
             }
             dados[ponteiroInicio] = dado
+            quantidade++
+        } else {
+            println("Fila Cheia!")
+        }
+    }
+
+    override fun enfileirarFim(dado: Any?) {
+        if (!estaCheia()) {
+            ponteiroFim++
+            if (ponteiroFim == dados.size) {
+                ponteiroFim = 0
+            }
+            dados[ponteiroFim] = dado
             quantidade++
         } else {
             println("Fila Cheia!")
@@ -35,41 +49,9 @@ class FilaCircularDupla(tamanho: Int = 10) : DuplamenteEnfileiravel {
         return dadoDesenfileirado
     }
 
-    override fun atualizarInicio(dado: Any?) {
-        if (!estaVazia()) {
-            dados[ponteiroInicio] = dado
-        } else {
-            println("Fila Vazia!")
-        }
-    }
-
-    override fun espiarInicio(): Any? {
-        var dadoEspiado: Any? = null
-        if (!estaVazia()) {
-            dadoEspiado = dados[ponteiroInicio]
-
-        } else {
-            println("Fila Vazia!")
-        }
-        return dadoEspiado
-    }
-
-    override fun enfileirarFim(dado: Any?) {
-        if (!estaCheia()) {
-            ponteiroFim++
-            if (ponteiroFim == dados.size) {
-                ponteiroFim = 0
-            }
-            dados[ponteiroFim] = dado
-            quantidade++
-        } else {
-            println("Fila Cheia!")
-        }
-    }
-
     override fun desenfileirarFim(): Any? {
         var dadoDesenfileirado: Any? = null
-        if (!estaCheia()) {
+        if (!estaVazia()) {
             dadoDesenfileirado = dados[ponteiroFim]
             ponteiroFim--
             if (ponteiroFim == -1) {
@@ -77,9 +59,17 @@ class FilaCircularDupla(tamanho: Int = 10) : DuplamenteEnfileiravel {
             }
             quantidade--
         } else {
-            println("Fila Cheia!")
+            println("Fila Vazia!")
         }
         return dadoDesenfileirado
+    }
+
+    override fun atualizarInicio(dado: Any?) {
+        if (!estaVazia()) {
+            dados[ponteiroInicio] = dado
+        } else {
+            println("Fila Vazia!")
+        }
     }
 
     override fun atualizarFim(dado: Any?) {
@@ -90,15 +80,56 @@ class FilaCircularDupla(tamanho: Int = 10) : DuplamenteEnfileiravel {
         }
     }
 
+    override fun espiarInicio(): Any? {
+        var dadoEspiado: Any? = null
+        if (!estaVazia()) {
+            dadoEspiado = dados[ponteiroInicio]
+        } else {
+            println("Fila vazia!")
+        }
+        return dadoEspiado
+    }
+
     override fun espiarFim(): Any? {
         var dadoEspiado: Any? = null
         if (!estaVazia()) {
             dadoEspiado = dados[ponteiroFim]
-
         } else {
-            println("Fila Vazia!")
+            println("Fila vazia!")
         }
         return dadoEspiado
+    }
+
+    override fun imprimirFrentePraTras(): String {
+        var resultado = "["
+        var ponteiroAux = ponteiroInicio
+        for (i in 0 ..< quantidade) {
+            resultado += if (i == quantidade - 1) {
+                "${dados[ponteiroAux % dados.size]}"
+            } else {
+                "${dados[ponteiroAux % dados.size]}, "
+            }
+            ponteiroAux++
+            if (ponteiroAux == dados.size)
+                ponteiroAux = 0
+        }
+        return "$resultado]"
+    }
+
+    override fun imprimirTrasPraFrente(): String {
+        var resultado = "["
+        var ponteiroAux = ponteiroFim
+        for (i in quantidade - 1 downTo 0 ) {
+            resultado += if (i == 0) {
+                "${dados[ponteiroAux % dados.size]}"
+            } else {
+                "${dados[ponteiroAux % dados.size]}, "
+            }
+            ponteiroAux--
+            if (ponteiroAux == -1)
+                ponteiroAux = dados.size - 1
+        }
+        return "$resultado]"
     }
 
     override fun estaCheia(): Boolean {
@@ -107,33 +138,5 @@ class FilaCircularDupla(tamanho: Int = 10) : DuplamenteEnfileiravel {
 
     override fun estaVazia(): Boolean {
         return quantidade == 0
-    }
-
-    override fun imprimirFrentePraTras(): String {
-        var resultado = "["
-        var ponteiroAuxiliar = ponteiroInicio
-        for (i in 0..<quantidade) {
-            resultado += if (i == quantidade - 1) {
-                "${dados[ponteiroAuxiliar % dados.size]}"
-            } else {
-                "${dados[ponteiroAuxiliar % dados.size]}, "
-            }
-            ponteiroAuxiliar++
-        }
-        return "$resultado]"
-    }
-
-    override fun imprimirTrasPraFrente(): String {
-        var resultado = "["
-        var ponteiroAuxiliar = ponteiroInicio
-        for (i in quantidade - 1 downTo 0) {
-            resultado += if (i == 0) {
-                "${dados[ponteiroAuxiliar % dados.size]}"
-            } else {
-                "${dados[ponteiroAuxiliar % dados.size]}, "
-            }
-            ponteiroAuxiliar++
-        }
-        return "$resultado]"
     }
 }

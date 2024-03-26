@@ -124,6 +124,7 @@ class FilaCircularDupla(tamanho: Int = 10) : DuplamenteEnfileirado {
                 "${dados[ponteiroAuxiliar % dados.size]}, "
 
             ponteiroAuxiliar++
+
         }
         return "$resultado]"
     }

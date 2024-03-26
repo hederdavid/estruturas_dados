@@ -1,8 +1,8 @@
-package estudosProva.pilha.normal
+package estudosProva.pilha.comFila
 
-interface Empilhavel {
-    fun empilhar(dado: Any?)
-    fun desempilhar(): Any?
+interface Enfileiravel {
+    fun enfileirar(dado: Any?)
+    fun desenfileirar(): Any?
     fun atualizar(dado: Any?)
     fun espiar(): Any?
     fun estaCheia(): Boolean

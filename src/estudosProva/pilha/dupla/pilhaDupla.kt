@@ -1,6 +1,6 @@
 package estudosProva.pilha.dupla
 
-class PilhaDupla(tamanho: Int = 10) : Empilhavel {
+class pilhaDupla(tamanho: Int = 10) : EmpilhavelDupla {
     private var ponteiroTopo1 = -1
     private var ponteiroTopo2 = tamanho
     private var dados: Array<Any?> = arrayOfNulls(tamanho)
@@ -9,7 +9,7 @@ class PilhaDupla(tamanho: Int = 10) : Empilhavel {
             ponteiroTopo1++
             dados[ponteiroTopo1] = dado
         } else {
-            println("Pilha1 cheia!")
+            println("Pilha Cheia!")
         }
     }
 
@@ -19,7 +19,7 @@ class PilhaDupla(tamanho: Int = 10) : Empilhavel {
             dadoDesempilhado = dados[ponteiroTopo1]
             ponteiroTopo1--
         } else {
-            println("Pilha1 Vazia!")
+            println("Pilha Vazia!")
         }
         return dadoDesempilhado
     }
@@ -28,7 +28,7 @@ class PilhaDupla(tamanho: Int = 10) : Empilhavel {
         if (!estaVazia1()) {
             dados[ponteiroTopo1] = dado
         } else {
-            println("Pilha1 Vazia!")
+            println("Pilha Vazia!")
         }
     }
 
@@ -37,10 +37,20 @@ class PilhaDupla(tamanho: Int = 10) : Empilhavel {
         if (!estaVazia1()) {
             dadoEspiado = dados[ponteiroTopo1]
         } else {
-            println("Pilha1 Vazia!")
+            println("Pilha Vazia!")
         }
         return dadoEspiado
     }
+
+    override fun estaCheia1(): Boolean {
+        return ponteiroTopo1 + 1 == ponteiroTopo2
+
+    }
+
+    override fun estaVazia1(): Boolean {
+        return ponteiroTopo1 == -1
+    }
+
     override fun imprimir1(): String {
         var resultado = "["
         for (i in ponteiroTopo1 downTo 0) {
@@ -58,7 +68,7 @@ class PilhaDupla(tamanho: Int = 10) : Empilhavel {
             ponteiroTopo2--
             dados[ponteiroTopo2] = dado
         } else {
-            println("Pilha2 Cheia!")
+            println("Pilha Cheia!")
         }
     }
 
@@ -68,7 +78,7 @@ class PilhaDupla(tamanho: Int = 10) : Empilhavel {
             dadoDesempilhado = dados[ponteiroTopo2]
             ponteiroTopo2++
         } else {
-            println("Pilha2 Vazia!")
+            println("Pilha Vazia!")
         }
         return dadoDesempilhado
     }
@@ -77,7 +87,7 @@ class PilhaDupla(tamanho: Int = 10) : Empilhavel {
         if (!estaVazia2()) {
             dados[ponteiroTopo2] = dado
         } else {
-            println("Pilha2 Vazia!")
+            println("Pilha Vazia!")
         }
     }
 
@@ -86,31 +96,21 @@ class PilhaDupla(tamanho: Int = 10) : Empilhavel {
         if (!estaVazia2()) {
             dadoEspiado = dados[ponteiroTopo2]
         } else {
-            println("Pilha2 Vazia!")
+            println("Pilha Vazia!")
         }
         return dadoEspiado
     }
 
-    override fun estaCheia1(): Boolean {
-        return ponteiroTopo1 + 1 == ponteiroTopo2
-    }
-
-    override fun estaVazia1(): Boolean {
-        return ponteiroTopo1 == -1
-    }
-
-
     override fun estaCheia2(): Boolean {
         return ponteiroTopo1 + 1 == ponteiroTopo2
     }
-
 
     override fun estaVazia2(): Boolean {
         return ponteiroTopo2 == dados.size
     }
 
     override fun imprimir2(): String {
-        var resultado: String = "["
+        var resultado = "["
         for (i in ponteiroTopo2..<dados.size) {
             resultado += if (i == dados.size - 1) {
                 "${dados[i]}"

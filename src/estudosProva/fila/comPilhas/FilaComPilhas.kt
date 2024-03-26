@@ -1,20 +1,22 @@
-package fila.comPilhas
+package estudosProva.fila.comPilhas
 
 class FilaComPilhas : Enfileiravel {
-    private val pilha1: Empilhavel = Pilha()
-    private val pilha2: Empilhavel = Pilha()
+    private val pilha1: Empilhavel = PilhaEstatica()
+    private val pilha2: Empilhavel = PilhaEstatica()
     override fun enfileirar(dado: Any?) {
         if (!estaCheia()) {
             while (!pilha1.estaVazia()) {
                 pilha2.empilhar(pilha1.desempilhar())
             }
+
             pilha1.empilhar(dado)
+
             while (!pilha2.estaVazia()) {
                 pilha1.empilhar(pilha2.desempilhar())
             }
 
         } else {
-            println("Fila Vazia!")
+            println("Fila Cheia!")
         }
     }
 
@@ -41,5 +43,4 @@ class FilaComPilhas : Enfileiravel {
     override fun imprimir(): String {
         return pilha1.imprimir()
     }
-
 }
