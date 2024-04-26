@@ -1,4 +1,4 @@
-package lista
+package lista.estatica
 
 class ListaCircular(tamanho: Int = 10) : Listavel {
     private var ponteiroInicio = 0

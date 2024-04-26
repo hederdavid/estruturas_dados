@@ -1,4 +1,4 @@
-package lista
+package lista.estatica
 
 interface Listavel {
     fun anexar(dado: Any?)
