@@ -13,9 +13,9 @@ class ListaDinamica(var tamanho: Int = 10) {
                 if (ponteiroAuxiliar?.dado == dado) {
                     posicao = i
                     break
+                } else {
+                    ponteiroAuxiliar = ponteiroAuxiliar?.proximo
                 }
-                ponteiroAuxiliar = ponteiroAuxiliar?.proximo
-
             }
         } else {
             println("Fila Vazia!")
