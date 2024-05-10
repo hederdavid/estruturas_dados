@@ -9,7 +9,7 @@ class ListaDinamica(var tamanho: Int = 10) {
         if (!estaVazia()) {
             ponteiroInicio?.dado = dado
         } else {
-            println("Fila Vazia!")
+            println("Lista Vazia!")
         }
     }
 

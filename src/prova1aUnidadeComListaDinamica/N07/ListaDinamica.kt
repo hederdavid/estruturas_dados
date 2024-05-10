@@ -18,7 +18,7 @@ class ListaDinamica(var tamanho: Int = 10) {
 
             }
         } else {
-            println("Fila Vazia!")
+            println("Lista Vazia!")
         }
         return posicao
     }

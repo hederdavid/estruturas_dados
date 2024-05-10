@@ -14,7 +14,7 @@ class ListaDinamica(var tamanho: Int = 10) {
                 ponteiroAuxiliar = ponteiroAuxiliar?.proximo
             }
         } else {
-            println("Fila Vazia!")
+            println("Lista Vazia!")
         }
         return dadosSelecionados
     }

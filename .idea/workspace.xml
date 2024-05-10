@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1023a823-81a0-46fa-bba5-2403fee27ebc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pilha/dinamica/Empilhavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pilha/dinamica/NoDuplo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pilha/dinamica/PilhaDinamica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N08/ListaDinamica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N08/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N08/NoDuplo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arvoreBinaria/heapMinimo/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/arvoreBinaria/heapMinimo/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +20,8 @@
       <list>
         <option value="Interface" />
         <option value="HTTP Request" />
-        <option value="Class" />
         <option value="Kotlin Interface" />
+        <option value="Class" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -45,30 +44,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.All in teste.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ClasseConcretaKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Heder David/IdeaProjects/untitled8&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Heder David/IdeaProjects/estruturas_dados/src/Main.kt&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/Heder David/IdeaProjects/estruturas_dados/emAula&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.All in teste.executor": "Run",
+    "Kotlin.ClasseConcretaKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Heder David/IdeaProjects/estruturas_dados/src/prova1aUnidadeComListaDinamica/N08",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Heder David/IdeaProjects/estruturas_dados/src/Main.kt",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "two.files.diff.last.used.folder": "C:/Users/Heder David/IdeaProjects/estruturas_dados/emAula",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N08" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N07" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N05" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N04" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N01" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\pilha\comFilas" />
       <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\fila\estatica" />
@@ -81,6 +87,8 @@
       <recent name="fila.dupla" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="prova1aUnidadeComListaDinamica.N06" />
+      <recent name="prova1aUnidadeComListaDinamica.N01" />
       <recent name="ordenacao.bubblesort.insertionSort" />
       <recent name="estudosProva.fila.comPilhas" />
     </key>
@@ -91,16 +99,6 @@
         <option value="HttpClient.HttpRequestRunConfigurationType" />
       </set>
     </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="All in teste" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/teste.http">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="HTTP Request.All in teste" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -134,7 +132,21 @@
       <workItem from="1712749188811" duration="39000" />
       <workItem from="1713267696176" duration="6490000" />
       <workItem from="1713274725926" duration="2900000" />
-      <workItem from="1713279742631" duration="997000" />
+      <workItem from="1713279742631" duration="1877000" />
+      <workItem from="1713383528286" duration="389000" />
+      <workItem from="1713444440097" duration="626000" />
+      <workItem from="1713445413431" duration="7005000" />
+      <workItem from="1713540309040" duration="4000" />
+      <workItem from="1713540704612" duration="22000" />
+      <workItem from="1713878312774" duration="1487000" />
+      <workItem from="1714056527684" duration="129000" />
+      <workItem from="1714088855347" duration="680000" />
+      <workItem from="1714134940530" duration="2414000" />
+      <workItem from="1714137458236" duration="1166000" />
+      <workItem from="1714138894838" duration="3363000" />
+      <workItem from="1715211621222" duration="4723000" />
+      <workItem from="1715273450268" duration="17000" />
+      <workItem from="1715297882599" duration="2012000" />
     </task>
     <servers />
   </component>
@@ -224,6 +236,33 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/lista/dinamica/ListaDinamica.kt</url>
+          <line>114</line>
+          <properties class="lista.dinamica.ListaDinamica" method="apagar">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N01/ListaDinamica.kt</url>
+          <line>8</line>
+          <properties class="prova1aUnidadeComListaDinamica.N01.ListaDinamica" method="inserirFim">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N08/ListaDinamica.kt</url>
+          <line>7</line>
+          <properties class="prova1aUnidadeComListaDinamica.N08.ListaDinamica" method="verificarPosicaoPrimeiraOcorrencia">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/estudosProva/pilha/dupla/PìlhaDupla.kt</url>

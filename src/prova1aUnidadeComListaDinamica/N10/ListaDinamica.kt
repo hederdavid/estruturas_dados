@@ -1,21 +1,17 @@
-package prova1aUnidadeComListaDinamica.N03
+package prova1aUnidadeComListaDinamica.N10
 
 class ListaDinamica(var tamanho: Int = 10) {
     private var ponteiroFim: NoDuplo? = null
     private var ponteiroInicio: NoDuplo? = null
     private var quantidade = 0
 
-    fun espiarInicio(): Any? {
-        var dadoEspiado: Any? = null
+    fun atualizarFim(dado: Any?) {
         if (!estaVazia()) {
-            dadoEspiado = ponteiroInicio?.dado
+            ponteiroFim?.dado = dado
         } else {
             println("Lista Vazia!")
         }
-        return dadoEspiado
     }
-
-
 
     fun estaCheia(): Boolean {
         return quantidade == tamanho
