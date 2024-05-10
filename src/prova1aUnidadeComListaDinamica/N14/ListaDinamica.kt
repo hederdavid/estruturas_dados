@@ -1,19 +1,19 @@
-package prova1aUnidadeComListaDinamica.N13
+package prova1aUnidadeComListaDinamica.N14
 
 class ListaDinamica(var tamanho: Int = 10) {
     private var ponteiroFim: NoDuplo? = null
     private var ponteiroInicio: NoDuplo? = null
     private var quantidade = 0
 
-    fun apagarInicio(): Any? {
+    fun apagarFim(): Any? {
         var dadoApagado: Any? = null
         if (!estaVazia()) {
-            val ponteiroAuxiliar = ponteiroInicio?.proximo
-            ponteiroAuxiliar?.anterior = null
-            dadoApagado = ponteiroInicio?.dado
-            ponteiroInicio = ponteiroAuxiliar
+            val ponteiroAuxiliar = ponteiroFim?.anterior
+            ponteiroAuxiliar?.proximo = null
+            dadoApagado = ponteiroFim?.dado
+            ponteiroFim = ponteiroAuxiliar
             if (quantidade == 1) {
-                ponteiroFim = null
+                ponteiroInicio = null
             }
             quantidade--
         } else {
