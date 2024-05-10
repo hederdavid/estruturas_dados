@@ -1,4 +1,4 @@
-package prova1aUnidadeComListaDinamica.N07
+package prova1aUnidadeComListaDinamica.N08
 
 fun main() {
     var teste: ListaDinamica = ListaDinamica();

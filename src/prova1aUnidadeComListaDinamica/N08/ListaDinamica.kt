@@ -1,4 +1,4 @@
-package prova1aUnidadeComListaDinamica.N07
+package prova1aUnidadeComListaDinamica.N08
 
 class ListaDinamica(var tamanho: Int = 10) {
     private var ponteiroFim: NoDuplo? = null
@@ -12,10 +12,9 @@ class ListaDinamica(var tamanho: Int = 10) {
             for (i in 0 ..< quantidade) {
                 if (ponteiroAuxiliar?.dado == dado) {
                     posicao = i
-                    break
-                } else {
-                    ponteiroAuxiliar = ponteiroAuxiliar?.proximo
                 }
+                ponteiroAuxiliar = ponteiroAuxiliar?.proximo
+
             }
         } else {
             println("Fila Vazia!")
