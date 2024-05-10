@@ -9,7 +9,7 @@ class ListaDinamica(var tamanho: Int = 10) {
         if (!estaVazia()) {
             if (posicao >= 0 && posicao < quantidade) {
                 var ponteiroAuxiliar = ponteiroInicio
-                for (i in 0 ..< quantidade) {
+                for (i in 0 ..< posicao) {
                     ponteiroAuxiliar = ponteiroAuxiliar?.proximo
                 }
                 ponteiroAuxiliar?.dado = dado
