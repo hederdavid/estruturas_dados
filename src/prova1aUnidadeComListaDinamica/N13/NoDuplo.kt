@@ -1,4 +1,4 @@
-package prova1aUnidadeComListaDinamica.N12
+package prova1aUnidadeComListaDinamica.N13
 
 class NoDuplo(var dado: Any? = null) {
     var anterior: NoDuplo? = null
