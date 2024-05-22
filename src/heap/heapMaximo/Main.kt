@@ -1,4 +1,4 @@
-package arvoreBinaria.heapMaximo
+package heap.heapMaximo
 
 fun main() {
     var heap: Amontoavel = ArvoreHeapMaximo(10)

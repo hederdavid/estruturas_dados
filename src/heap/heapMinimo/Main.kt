@@ -1,4 +1,4 @@
-package arvoreBinaria.heapMinimo
+package heap.heapMinimo
 
 fun main() {
     val heap: Amontoavel = ArvoreHeapMinimo()

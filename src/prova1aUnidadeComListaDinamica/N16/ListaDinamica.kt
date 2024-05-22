@@ -1,28 +1,29 @@
-package prova1aUnidadeComListaDinamica.N07
+package prova1aUnidadeComListaDinamica.N16
 
 class ListaDinamica(var tamanho: Int = 10) {
     private var ponteiroFim: NoDuplo? = null
     private var ponteiroInicio: NoDuplo? = null
     private var quantidade = 0
 
-    fun verificarPosicaoPrimeiraOcorrencia(dado: Any?): Any? {
-        var posicao: Any? = "Elemento não encontrado na lista"
-        var ponteiroAuxiliar = ponteiroInicio
+    fun apagarTodos(): Array<Any?> {
+        var dadosApagados: Array<Any?> = arrayOfNulls(quantidade)
         if (!estaVazia()) {
+            var ponteiroAuxiliar = ponteiroInicio
+
             for (i in 0 ..< quantidade) {
-                if (ponteiroAuxiliar?.dado == dado) {
-                    posicao = i
-                    break
-                }
+                dadosApagados[i] = ponteiroAuxiliar?.dado
                 ponteiroAuxiliar = ponteiroAuxiliar?.proximo
             }
+            ponteiroInicio = null
+            ponteiroFim = null
+            quantidade = 0
+
         } else {
             println("Lista Vazia!")
         }
-        return posicao
+        return dadosApagados
     }
 
-    //Apenas pra teste
     fun inserirFim(dado: Any?) {
         if (!estaCheia()) {
             var noTemp: NoDuplo? = NoDuplo(dado)
@@ -39,7 +40,20 @@ class ListaDinamica(var tamanho: Int = 10) {
         }
     }
 
+    fun imprimir(): String {
+        var resultado = "["
+        var ponteiroAux = ponteiroInicio
+        for (i in 0 ..< quantidade) {
+            resultado += if (i == quantidade - 1) {
+                "${ponteiroAux?.dado}"
+            } else {
+                "${ponteiroAux?.dado}, "
+            }
+            ponteiroAux = ponteiroAux?.proximo
+        }
+        return "$resultado]"
 
+    }
 
     fun estaCheia(): Boolean {
         return quantidade == tamanho

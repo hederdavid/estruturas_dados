@@ -5,10 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1023a823-81a0-46fa-bba5-2403fee27ebc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N08/ListaDinamica.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N08/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N08/NoDuplo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Versão1/HeapMaximoPaciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Versão1/HeapingPaciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Versão1/Main2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Versão1/Paciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/Espalhavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/ListaDinamica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/Listavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/Mapa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/MapaEspalhamento.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/NoDuplo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMaximo/HeapMaximo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMaximo/HeapingMaximoPaciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMaximo/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMaximo/Paciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo/HeapMinimoPaciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo/HeapingPaciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo/Paciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N15/ListaDinamica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N15/NoDuplo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N16/ListaDinamica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N16/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N16/NoDuplo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash/Espalhavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash/ListaDinamica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash/Listavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash/Mapa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash/MapaEspalhamento.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash/NoDuplo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash/descricao.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arvoreBinaria/heapMaximo/Amontoavel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/heapMaximo/Amontoavel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arvoreBinaria/heapMaximo/ArvoreHeapMaximo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/heapMaximo/ArvoreHeapMaximo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arvoreBinaria/heapMaximo/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/heapMaximo/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arvoreBinaria/heapMinimo/Amontoavel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/heapMinimo/Amontoavel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arvoreBinaria/heapMinimo/ArvoreHeapMinimo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/heapMinimo/ArvoreHeapMinimo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arvoreBinaria/heapMinimo/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/heapMinimo/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N07/ListaDinamica.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N07/ListaDinamica.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +56,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTTP Request" />
-        <option value="Kotlin Interface" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Kotlin Enum" />
+        <option value="package-info" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -48,6 +89,7 @@
   "keyToString": {
     "HTTP Request.All in teste.executor": "Run",
     "Kotlin.ClasseConcretaKt.executor": "Run",
+    "Kotlin.Main2Kt.executor": "Debug",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,7 +97,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Heder David/IdeaProjects/estruturas_dados/src/prova1aUnidadeComListaDinamica/N08",
+    "last_opened_file_path": "C:/Users/Heder David/IdeaProjects/estruturas_dados/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,11 +111,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N08" />
-      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N07" />
-      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N05" />
-      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N04" />
-      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N01" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\ordenacao\mergesort" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\ordenacao\quicksort" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N16" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N14" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\pilha\comFilas" />
@@ -87,10 +129,11 @@
       <recent name="fila.dupla" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="ordenacao.quicksort" />
+      <recent name="prova1aUnidadeComListaDinamica.N15" />
       <recent name="prova1aUnidadeComListaDinamica.N06" />
       <recent name="prova1aUnidadeComListaDinamica.N01" />
       <recent name="ordenacao.bubblesort.insertionSort" />
-      <recent name="estudosProva.fila.comPilhas" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -146,7 +189,26 @@
       <workItem from="1714138894838" duration="3363000" />
       <workItem from="1715211621222" duration="4723000" />
       <workItem from="1715273450268" duration="17000" />
-      <workItem from="1715297882599" duration="2012000" />
+      <workItem from="1715297882599" duration="4383000" />
+      <workItem from="1715345997324" duration="4958000" />
+      <workItem from="1715606129749" duration="3542000" />
+      <workItem from="1715620278538" duration="611000" />
+      <workItem from="1715621458325" duration="1287000" />
+      <workItem from="1715622775437" duration="346000" />
+      <workItem from="1715623144419" duration="10000" />
+      <workItem from="1715623160042" duration="1221000" />
+      <workItem from="1715624829925" duration="129000" />
+      <workItem from="1715627611687" duration="22000" />
+      <workItem from="1715688213485" duration="6831000" />
+      <workItem from="1715726462800" duration="5168000" />
+      <workItem from="1715732305833" duration="402000" />
+      <workItem from="1715777753771" duration="85000" />
+      <workItem from="1715778801257" duration="4903000" />
+      <workItem from="1715793993604" duration="180000" />
+      <workItem from="1715807953683" duration="4026000" />
+      <workItem from="1716208159914" duration="4611000" />
+      <workItem from="1716222960458" duration="5832000" />
+      <workItem from="1716228897379" duration="1317000" />
     </task>
     <servers />
   </component>
@@ -264,15 +326,127 @@
           </properties>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N13/ListaDinamica.kt</url>
+          <line>7</line>
+          <properties class="prova1aUnidadeComListaDinamica.N13.ListaDinamica" method="apagarInicio">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N14/ListaDinamica.kt</url>
+          <line>24</line>
+          <properties class="prova1aUnidadeComListaDinamica.N14.ListaDinamica" method="inserirFim">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N16/ListaDinamica.kt</url>
+          <line>26</line>
+          <properties class="prova1aUnidadeComListaDinamica.N16.ListaDinamica" method="inserirFim">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/prova1aUnidadeComListaDinamica/N16/ListaDinamica.kt</url>
+          <line>7</line>
+          <properties class="prova1aUnidadeComListaDinamica.N16.ListaDinamica" method="apagarTodos">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/heap/heapMaximo/ArvoreHeapMaximo.kt</url>
+          <line>67</line>
+          <properties class="heap.heapMaximo.ArvoreHeapMaximo" method="ajustarAcima">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/heap/heapMaximo/ArvoreHeapMaximo.kt</url>
+          <line>81</line>
+          <properties class="heap.heapMaximo.ArvoreHeapMaximo" method="ajustarAbaixo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/heap/heapMaximo/ArvoreHeapMaximo.kt</url>
+          <line>115</line>
+          <properties class="heap.heapMaximo.ArvoreHeapMaximo" method="trocar">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/Arvore Binária Heap Máximo Paciente/Versão1/Main2.kt</url>
+          <properties>
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/Arvore Binária Heap Máximo Paciente/Versão2/Main.kt</url>
+          <line>9</line>
+          <properties>
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/heap/filaPacientesHeapMaximo/Main.kt</url>
+          <line>1</line>
+          <properties method="novaPrioridade">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/hash/MapaEspalhamento.kt</url>
+          <line>5</line>
+          <properties class="hash.MapaEspalhamento" method="adicionar">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/hash/MapaEspalhamento.kt</url>
+          <line>52</line>
+          <properties class="hash.MapaEspalhamento" method="contemChave">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/estudosProva/pilha/dupla/PìlhaDupla.kt</url>
           <line>45</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/arvoreBinaria/heapMinimo/Main.kt</url>
+          <url>file://$PROJECT_DIR$/src/heap/heapMinimo/Main.kt</url>
           <line>14</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/lista/dinamica/Main.kt</url>
+          <line>6</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

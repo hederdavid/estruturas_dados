@@ -1,66 +1,68 @@
-package arvoreBinaria.heapMinimo
+package heap.filaPacientesHeapMinimo
 
-class ArvoreHeapMinimo(tamanho: Int = 10) : Amontoavel {
-
-    private var dados =  IntArray(tamanho){0}
+class HeapMinimoPaciente(val tamanho: Int = 10) : HeapingPaciente {
+    private var dados: Array<Paciente?> = arrayOfNulls(tamanho)
     private var ponteiroFim = -1
-    override fun inserir(dado: Int) {
+    override fun enfileirar(dado: Paciente) {
         if (!estaCheia()) {
             ponteiroFim++
             dados[ponteiroFim] = dado
             ajustarAcima(ponteiroFim)
         } else {
-            println("Heap Cheia!")
+            println("Fila Cheia!")
         }
     }
 
-    override fun extrair(): Int? {
-        var dadoRaiz: Int? = null
+    override fun desenfileirar(): Paciente? {
+        var dadoDesenfileirado: Paciente? = null
         if (!estaVazia()) {
-            dadoRaiz = dados[0]
+            dadoDesenfileirado = dados[0]
             dados[0] = dados[ponteiroFim]
             ponteiroFim--
             ajustarAbaixo(0)
         } else {
-            println("Heap Vazia!")
+            println("Fila Vazia!")
         }
-        return dadoRaiz
+        return dadoDesenfileirado
     }
 
-    override fun obter(): Int? {
-        var dadoRaiz: Int? = null
-        if (!estaVazia()) {
-            dadoRaiz = dados[0]
-        } else {
-            println("Heap Vazia!")
-        }
-        return dadoRaiz
-    }
-
-    override fun atualizar(dado: Int) {
+    override fun atualizar(dado: Paciente) {
         if (!estaVazia()) {
             dados[0] = dado
             ajustarAbaixo(0)
         } else {
-            println("Heap Vazia!")
+            println("Fila Vazia!")
         }
+
+    }
+
+    override fun espiar(): Paciente? {
+        var dadoEspiado: Paciente? = null
+        if (!estaVazia()) {
+            dadoEspiado = dados[0]
+        } else {
+            println("Lista Vazia!")
+        }
+        return dadoEspiado
     }
 
     override fun estaCheia(): Boolean {
-        return ponteiroFim == dados.size - 1
+        return ponteiroFim == tamanho - 1
     }
 
     override fun estaVazia(): Boolean {
         return ponteiroFim == -1
     }
 
+
     override fun imprimir(): String {
         var resultado = "["
-        for (i in 0..ponteiroFim) {
-            resultado += if (i == ponteiroFim)
+        for (i in 0 .. ponteiroFim) {
+            resultado += if (i == ponteiroFim) {
                 "${dados[i]}"
-            else
+            } else {
                 "${dados[i]}, "
+            }
         }
         return "$resultado]"
     }
@@ -68,8 +70,8 @@ class ArvoreHeapMinimo(tamanho: Int = 10) : Amontoavel {
     private fun ajustarAcima(indice: Int) {
         var indiceAtual = indice
         while (indiceAtual != 0) {
-            val indicePai = indicePai(indiceAtual)
-            if (dados[indicePai] > dados[indiceAtual]) {
+            var indicePai = indicePai(indiceAtual)
+            if (dados[indicePai]!!.prioridade > dados[indiceAtual]!!.prioridade) {
                 trocar(indiceAtual, indicePai)
                 indiceAtual = indicePai
             } else {
@@ -79,17 +81,18 @@ class ArvoreHeapMinimo(tamanho: Int = 10) : Amontoavel {
     }
 
     private fun ajustarAbaixo(pai: Int) {
-        val filhoEsquerdo = indiceFilhoEsquerdo(pai)
-        val filhoDireito = indiceFilhoDireito(pai)
+        var filhoEsquerdo = indiceFilhoEsquerdo(pai)
+        var filhoDireito = indiceFilhoDireito(pai)
         var menor = pai
+
         if (filhoEsquerdo <= ponteiroFim) {
-            if (dados[menor] > dados[filhoEsquerdo]) {
+            if (dados[menor]!!.prioridade > dados[filhoEsquerdo]!!.prioridade) {
                 menor = filhoEsquerdo
             }
         }
 
         if (filhoDireito <= ponteiroFim) {
-            if (dados[menor] > dados[filhoDireito]) {
+            if (dados[menor]!!.prioridade > dados[filhoDireito]!!.prioridade) {
                 menor = filhoDireito
             }
         }
@@ -98,7 +101,6 @@ class ArvoreHeapMinimo(tamanho: Int = 10) : Amontoavel {
             trocar(pai, menor)
             ajustarAbaixo(menor)
         }
-
     }
 
     private fun trocar(i: Int, j: Int) {
@@ -107,15 +109,17 @@ class ArvoreHeapMinimo(tamanho: Int = 10) : Amontoavel {
         dados[j] = temp
     }
 
-    private fun indicePai(indiceFilho: Int): Int {
-        return (indiceFilho - 1) / 2
+    private fun indicePai(indice: Int): Int {
+        return (indice - 1) / 2
     }
 
-    private fun indiceFilhoEsquerdo(indicePai: Int): Int {
-        return indicePai * 2 + 1
+    private fun indiceFilhoEsquerdo(pai: Int): Int {
+        return (pai * 2 + 1)
     }
 
-    private fun indiceFilhoDireito(indicePai: Int): Int {
-        return indicePai * 2 + 2
+    private fun indiceFilhoDireito(pai: Int): Int {
+        return (pai * 2 + 2)
     }
+
+
 }

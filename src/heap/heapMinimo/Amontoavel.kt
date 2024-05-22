@@ -1,4 +1,4 @@
-package arvoreBinaria.heapMinimo
+package heap.heapMinimo
 
 interface Amontoavel {
     fun inserir(dado: Int)
