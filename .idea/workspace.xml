@@ -4,27 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1023a823-81a0-46fa-bba5-2403fee27ebc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/heap/heapminimopaciente/HeapMinimoPaciente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/heap/heapminimopaciente/HeapingPaciente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/heap/heapminimopaciente/Paciente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/lista/dinamica/ListaDinamica.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/lista/dinamica/Listavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/lista/dinamica/NoDuplo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/lista/dinamica1/ListaDinamica.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/lista/dinamica1/Listavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estudosProva/lista/dinamica1/NoDuplo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo2/HeapingMinimoPaciente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo2/HeapingPaciente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo2/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo2/Paciente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista2/ListaDinamica.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista2/Listavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista2/NoDuplo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista3/Enfileiravel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista3/FilaDinamica.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista3/NoDuplo.kt" afterDir="false" />
+    <list default="true" id="1023a823-81a0-46fa-bba5-2403fee27ebc" name="Changes" comment="estudos">
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo3/HeapMinimoPaciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo3/HeapingPaciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo3/Paciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista4/ListaDinamica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista4/Listavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista4/NoDuplo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista5/ListaDinamica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista5/Listavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista5/NoDuplo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ordenacao/bubblesort/mergesort/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash2/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash2/Espalhavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash2/Mapa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash2/MapaEspalhamento.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista3/Enfileiravel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista3/Listavel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista3/FilaDinamica.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista3/ListaDinamica.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +35,9 @@
         <option value="Class" />
         <option value="Interface" />
         <option value="Kotlin Enum" />
+        <option value="package-info" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Interface" />
-        <option value="package-info" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -192,12 +189,29 @@
       <workItem from="1716897838035" duration="7319000" />
       <workItem from="1720458717967" duration="7436000" />
       <workItem from="1720467210351" duration="57000" />
-      <workItem from="1720525706692" duration="1810000" />
+      <workItem from="1720525706692" duration="15882000" />
+      <workItem from="1720551520507" duration="602000" />
+      <workItem from="1720563465986" duration="13000" />
+      <workItem from="1721648765139" duration="3124000" />
+      <workItem from="1721651990605" duration="3163000" />
     </task>
+    <task id="LOCAL-00001" summary="estudos">
+      <option name="closed" value="true" />
+      <created>1720530276163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720530276163</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="estudos" />
+    <option name="LAST_COMMIT_MESSAGE" value="estudos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -417,6 +431,15 @@
           </properties>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/lista/dinamica/ListaDinamica.kt</url>
+          <line>7</line>
+          <properties class="lista.dinamica.ListaDinamica" method="anexar">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/estudosProva/pilha/dupla/PìlhaDupla.kt</url>
           <line>45</line>
@@ -426,11 +449,6 @@
           <url>file://$PROJECT_DIR$/src/heap/heapMinimo/Main.kt</url>
           <line>14</line>
           <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/lista/dinamica/Main.kt</url>
-          <line>6</line>
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

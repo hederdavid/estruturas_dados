@@ -1,10 +1,9 @@
-package lista3
+package lista4
 
-
-interface Enfileiravel {
+interface Listavel {
     fun anexar(dado: Any?)
     fun inserir(dado: Any?, posicao: Int)
-    fun apagar(posicao: Int): Any?
+    fun apagar(dado: Any?, posicao: Int): Any?
     fun apagarTodos(): Array<Any?>
     fun atualizar(dado: Any?, posicao: Int)
     fun selecionar(posicao: Int): Any?

@@ -1,6 +1,6 @@
 package lista3
 
-class FilaDinamica(private val tamanho: Int = 10) : Enfileiravel {
+class ListaDinamica(private val tamanho: Int = 10) : Listavel {
 
     private var ponteiroInicio: NoDuplo? = null
     private var ponteiroFim: NoDuplo? = null
