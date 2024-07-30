@@ -1,7 +1,7 @@
 class ListaDinamica(private val tamanho: Int = 10) : Listavel {
 
-	private var ponteiroInicio: NoDuplo? = null
-	private var ponteiroFim: NoDuplo? = null
+	var ponteiroInicio: NoDuplo? = null
+	var ponteiroFim: NoDuplo? = null
 	private var quantidade = 0
 
 	//idêntico ao enfileirar de FilaDinamica

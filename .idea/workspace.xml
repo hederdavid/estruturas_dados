@@ -5,23 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1023a823-81a0-46fa-bba5-2403fee27ebc" name="Changes" comment="estudos">
-      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo3/HeapMinimoPaciente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo3/HeapingPaciente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo3/Paciente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista4/ListaDinamica.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista4/Listavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista4/NoDuplo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista5/ListaDinamica.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista5/Listavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista5/NoDuplo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ordenacao/bubblesort/mergesort/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/v1Hash2/Cliente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/v1Hash2/Espalhavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/v1Hash2/Mapa.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/v1Hash2/MapaEspalhamento.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quicksort/Listable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quicksort/Listdynamic.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quicksort/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quicksort/NoDuplo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quicksort/Quicksort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quicksort/Quicksort2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quicksort/Quicksort3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quicksort/Quicksort4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Java/Prova.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Java/SegundaChamada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Java/abp/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Java/abp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Java/abp/ABP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Java/abp/ABPPrincipalCLI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Java/abp/Arborizavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Java/abp/NoTriplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Java/avl/AVL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Java/avl/AVLPrincipalCLI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Java/avl/Arborizavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Java/avl/NoTriplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Kotlin/ABP Genérica/ABP.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Kotlin/ABP Genérica/Arborizavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Kotlin/ABP Genérica/MainCLI.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Kotlin/ABP Genérica/NoTriplo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Kotlin/abp/ABP.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Kotlin/abp/Arborizavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Kotlin/abp/MainCLI.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arvore/Kotlin/abp/NoTriplo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash2/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash2/Espalhavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash2/ListaDinamica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash2/Listavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash2/Mapa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash2/MapaEspalhamento.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash2/NoDuplo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo3/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo4/HeapingMinimoPaciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo4/HeapingPaciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo4/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/filaPacientesHeapMinimo4/Paciente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash3/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash3/Espalhavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash3/ListaDinamica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash3/Listavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash3/Mapa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash3/MapaEspalhamento.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v1Hash3/NoDuplo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista3/Enfileiravel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista3/Listavel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista3/FilaDinamica.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista3/ListaDinamica.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v1Hash/ListaDinamica.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/v1Hash/ListaDinamica.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v1Hash/MapaEspalhamento.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/v1Hash/MapaEspalhamento.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +66,9 @@
       <list>
         <option value="HTTP Request" />
         <option value="Class" />
-        <option value="Interface" />
         <option value="Kotlin Enum" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
@@ -60,37 +93,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.All in teste.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ClasseConcretaKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Main2Kt.executor&quot;: &quot;Debug&quot;,
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Heder David/IdeaProjects/estruturas_dados_meu&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Heder David/IdeaProjects/estruturas_dados/src/Main.kt&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/Heder David/IdeaProjects/estruturas_dados/emAula&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.All in teste.executor": "Run",
+    "Kotlin.ClasseConcretaKt.executor": "Run",
+    "Kotlin.Main2Kt.executor": "Debug",
+    "Kotlin.MainKt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Heder David/IdeaProjects/estruturas_dados_meu/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Heder David/IdeaProjects/estruturas_dados/src/Main.kt",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "two.files.diff.last.used.folder": "C:/Users/Heder David/IdeaProjects/estruturas_dados/emAula",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src" />
-      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\ordenacao\mergesort" />
-      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\ordenacao\quicksort" />
-      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N16" />
-      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\prova1aUnidadeComListaDinamica\N14" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados_meu\src" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados_meu\src\arvores" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados_meu\src\heap" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados_meu\src\Quicksort" />
+      <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados_meu\src\ordenacao\bubblesort" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Heder David\IdeaProjects\estruturas_dados\src\pilha\comFilas" />
@@ -193,7 +226,15 @@
       <workItem from="1720551520507" duration="602000" />
       <workItem from="1720563465986" duration="13000" />
       <workItem from="1721648765139" duration="3124000" />
-      <workItem from="1721651990605" duration="3163000" />
+      <workItem from="1721651990605" duration="3834000" />
+      <workItem from="1721667056917" duration="4066000" />
+      <workItem from="1721672404554" duration="1056000" />
+      <workItem from="1721735488811" duration="28000" />
+      <workItem from="1721736704734" duration="1768000" />
+      <workItem from="1721738492862" duration="7638000" />
+      <workItem from="1721753356371" duration="4000000" />
+      <workItem from="1721915633262" duration="13000" />
+      <workItem from="1722340888478" duration="1083000" />
     </task>
     <task id="LOCAL-00001" summary="estudos">
       <option name="closed" value="true" />
@@ -421,15 +462,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/hash/MapaEspalhamento.kt</url>
-          <line>52</line>
-          <properties class="hash.MapaEspalhamento" method="contemChave">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/lista/dinamica/ListaDinamica.kt</url>

@@ -1,7 +1,8 @@
+
 //Clusterização, Conteinerização
 class MapaEspalhamento(private val tamanhoTabela: Int = 10): Espalhavel {
 
-	private var tabelaEspalhamento: Array<Listavel> = Array(tamanhoTabela) { ListaDinamica() }
+	private var tabelaEspalhamento: Array<Listavel> = Array(tamanhoTabela) {ListaDinamica()}
 	//Controla quantos elementos há na estrutura Mapa Espalhamento (HashMap)
 	private var quantidade = 0
 	
